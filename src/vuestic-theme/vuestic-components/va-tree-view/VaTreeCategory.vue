@@ -118,7 +118,10 @@ export default {
   }
 
   &__list-internal-container {
-    border-left: dashed 0.0625rem $lighter-gray;
+    background-image: linear-gradient(to bottom, rgba(52, 56, 85, 0.25) 10%, rgba(255, 255, 255, 0) 25%);
+    background-position: left;
+    background-size: 2px 10px;
+    background-repeat: repeat-y;
     padding-left: 1.5rem;
   }
 

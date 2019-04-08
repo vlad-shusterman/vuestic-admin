@@ -20,10 +20,9 @@ export default {
 @import "../../../vuestic-sass/resources/resources";
 
 .square-with-icon {
-  display: flex;
-  justify-content: center;
+  @include flex-center();
   align-items: center;
-
+  border-radius: 0.1875rem;
   height: 1.375rem;
   width: 1.375rem;
   color: $white;
